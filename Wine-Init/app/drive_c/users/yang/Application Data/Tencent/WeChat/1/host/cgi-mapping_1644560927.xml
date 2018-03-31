@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<functionlist>
+    <change>true</change>
+    <function name="basic">
+        <domainlist connecttype="long">
+            <domain idc="1">long.weixin.qq.com</domain>
+            <domain idc="1">shlong.weixin.qq.com</domain>
+            <domain idc="2">hklong.weixin.qq.com</domain>
+            <domain idc="4">calong.weixin.qq.com</domain>
+            <domain idc="3">szlong.weixin.qq.com</domain>
+            <domain idc="5">sh2tjlong.weixin.qq.com</domain>
+            <domain idc="5">sz2tjlong.weixin.qq.com</domain>
+            <domain idc="5">tjlong.weixin.qq.com</domain>
+            <domain idc="8">mllong.weixin.qq.com</domain>
+        </domainlist>
+        <domainlist connecttype="short">
+            <domain idc="1">short.weixin.qq.com</domain>
+            <domain idc="1">shshort.weixin.qq.com</domain>
+            <domain idc="2">hkshort.weixin.qq.com</domain>
+            <domain idc="4">cashort.weixin.qq.com</domain>
+            <domain idc="3">szshort.weixin.qq.com</domain>
+            <domain idc="5">sh2tjshort.weixin.qq.com</domain>
+            <domain idc="5">sz2tjshort.weixin.qq.com</domain>
+            <domain idc="5">tjshort.weixin.qq.com</domain>
+            <domain idc="8">mlshort.weixin.qq.com</domain>
+        </domainlist>
+        <cgilist prefix="/cgi-bin/micromsg-bin/">
+            <cgi reqid="237" respid="1000000237" nettype="3" netstrategy="0">newsendmsg</cgi>
+            <cgi reqid="32" respid="1000000032" nettype="3" netstrategy="0">newreg</cgi>
+            <cgi reqid="2" respid="1000000002" nettype="3" netstrategy="0">sendmsg</cgi>
+            <cgi reqid="19" respid="1000000019" nettype="3" netstrategy="0">uploadvoice</cgi>
+            <cgi reqid="27" respid="1000000027" nettype="3" netstrategy="0">newinit</cgi>
+            <cgi reqid="34" respid="1000000034" nettype="3" netstrategy="0">searchcontact</cgi>
+            <cgi reqid="36" respid="1000000036" nettype="3" netstrategy="0">addchatroommember</cgi>
+            <cgi reqid="37" respid="1000000037" nettype="3" netstrategy="0">createchatroom</cgi>
+            <cgi reqid="44" respid="1000000044" nettype="3" netstrategy="0">verifyuser</cgi>
+            <cgi reqid="45" respid="1000000045" nettype="3" netstrategy="0">bindopmobile</cgi>
+            <cgi reqid="46" respid="1000000046" nettype="3" netstrategy="0">uploadhdheadimg</cgi>
+            <cgi reqid="56" respid="1000000056" nettype="3" netstrategy="0">shakereport</cgi>
+            <cgi reqid="57" respid="1000000057" nettype="3" netstrategy="0">shakeget</cgi>
+            <cgi reqid="62" respid="1000000062" nettype="3" netstrategy="0">voipsync</cgi>
+            <cgi reqid="63" respid="1000000063" nettype="3" netstrategy="0">voipinvite</cgi>
+            <cgi reqid="64" respid="1000000064" nettype="3" netstrategy="0">voipcancelinvite</cgi>
+            <cgi reqid="65" respid="1000000065" nettype="3" netstrategy="0">voipanswer</cgi>
+            <cgi reqid="66" respid="1000000066" nettype="3" netstrategy="0">voipshutdown</cgi>
+            <cgi reqid="68" respid="1000000068" nettype="3" netstrategy="0">sendemoji</cgi>
+            <cgi reqid="84" respid="1000000084" nettype="3" netstrategy="0">masssend</cgi>
+            <cgi reqid="94" respid="1000000094" nettype="3" netstrategy="0">voiceaddr</cgi>
+            <cgi reqid="107" respid="1000000107" nettype="3" netstrategy="0">sendappmsg</cgi>
+            <cgi reqid="118" respid="1000000118" nettype="3" netstrategy="0">getprofile</cgi>
+            <cgi reqid="119" respid="1000000119" nettype="3" netstrategy="0">voipgetroominfo</cgi>
+            <cgi reqid="121" respid="1000000121" nettype="3" netstrategy="0">newsync</cgi>
+            <cgi reqid="123" respid="1000000123" nettype="3" netstrategy="0">voipack</cgi>
+            <cgi reqid="125" respid="1000000125" nettype="3" netstrategy="0">voipinviteremind</cgi>
+            <cgi reqid="127" respid="1000000127" nettype="3" netstrategy="0">shaketranimgreport</cgi>
+            <cgi reqid="130" respid="1000000130" nettype="3" netstrategy="0">shaketranimgunbind</cgi>
+            <cgi reqid="131" respid="1000000131" nettype="3" netstrategy="0">checkunbind</cgi>
+            <cgi reqid="132" respid="1000000132" nettype="3" netstrategy="0">queryhaspasswd</cgi>
+            <cgi reqid="146" respid="1000000146" nettype="3" netstrategy="0">talkmicaction</cgi>
+            <cgi reqid="149" respid="1000000149" nettype="3" netstrategy="0">talknoop</cgi>
+            <cgi reqid="151" respid="1000000151" nettype="3" netstrategy="0">addsafedevice</cgi>
+            <cgi reqid="156" respid="1000000156" nettype="3" netstrategy="0">setemailpwd</cgi>
+            <cgi reqid="158" respid="1000000158" nettype="3" netstrategy="0">uploadinputvoice</cgi>
+            <cgi reqid="169" respid="1000000169" nettype="3" netstrategy="0">addtalkroommember</cgi>
+            <cgi reqid="170" respid="1000000170" nettype="3" netstrategy="0">deltalkroommember</cgi>
+            <cgi reqid="174" respid="1000000174" nettype="3" netstrategy="0">talkinvite</cgi>
+            <cgi reqid="176" respid="1000000176" nettype="3" netstrategy="0">clickcommand</cgi>
+            <cgi reqid="177" respid="1000000177" nettype="3" netstrategy="0">shakemusic</cgi>
+            <cgi reqid="178" respid="1000000178" nettype="3" netstrategy="0">newauth</cgi>
+            <cgi reqid="253" respid="1000000253" nettype="3" netstrategy="0">manualauth</cgi>
+            <cgi reqid="254" respid="1000000254" nettype="3" netstrategy="0">autoauth</cgi>
+            <cgi reqid="180" respid="1000000180" nettype="3" netstrategy="0">newsetpasswd</cgi>
+            <cgi reqid="181" respid="1000000181" nettype="3" netstrategy="0">newsetemailpwd</cgi>
+            <cgi reqid="182" respid="1000000182" nettype="3" netstrategy="0">newverifypasswd</cgi>
+            <cgi reqid="183" respid="1000000183" nettype="3" netstrategy="0">joinlbsroom</cgi>
+            <cgi reqid="187" respid="1000000187" nettype="3" netstrategy="0">paydeluserroll</cgi>
+            <cgi reqid="209" respid="1000000209" nettype="3" netstrategy="0">mmradarsearch</cgi>
+            <cgi reqid="218" respid="1000000218" nettype="3" netstrategy="0">kvreportrsa</cgi>
+            <cgi reqid="150" respid="1000000150" nettype="3" netstrategy="0">opvoicereminder</cgi>
+            <cgi reqid="232" respid="1000000232" nettype="3" netstrategy="0">getloginqrcode</cgi>
+            <cgi reqid="233" respid="1000000233" nettype="3" netstrategy="0">checkloginqrcode</cgi>
+            <cgi reqid="247" respid="1000000247" nettype="3" netstrategy="0">pushloginurl</cgi>
+            <cgi reqid="238" respid="1000000238" nettype="3" netstrategy="0">heartbeat</cgi>
+            <cgi reqid="257" respid="1000000257" nettype="3" netstrategy="0">getcrmsg</cgi>
+            <cgi reqid="845" respid="1000000845" nettype="3" netstrategy="0">asyncbizsubscribe2016</cgi>
+            <cgi reqid="515" respid="1000000515" nettype="3" netstrategy="0">festivalhongbao2016</cgi>
+            <cgi reqid="267" respid="1000000267" nettype="3" netstrategy="0">getsponsorhongbao2016</cgi>
+            <cgi reqid="381" respid="1000000381" nettype="3" netstrategy="0">voicetrans</cgi>
+            <cgi reqid="9" respid="1000000009" nettype="1" netstrategy="0">uploadmsgimg</cgi>
+            <cgi reqid="4" respid="1000000004" nettype="1" netstrategy="0">iphonereg</cgi>
+            <cgi reqid="39" respid="1000000039" nettype="1" netstrategy="0">uploadvideo</cgi>
+            <cgi reqid="155" respid="1000000155" nettype="3" netstrategy="1">geta8key</cgi>
+            <cgi reqid="185" respid="1000000185" nettype="3" netstrategy="1">tenpay</cgi>
+            <cgi reqid="345" respid="1000000345" nettype="3" netstrategy="1">mp-geta8key</cgi>
+            <cgi reqid="346" respid="1000000346" nettype="3" netstrategy="1">pay-geta8key</cgi>
+            <cgi reqid="387" respid="1000000387" nettype="3" netstrategy="1">minor-geta8key</cgi>
+            <cgi reqid="388" respid="1000000388" nettype="3" netstrategy="1">3rd-geta8key</cgi>
+        </cgilist>
+    </function>
+    <function name="other">
+        <domainlist connecttype="short">
+            <domain idc="1">short.weixin.qq.com</domain>
+            <domain idc="1">extshort.weixin.qq.com</domain>
+            <domain idc="2">hkextshort.weixin.qq.com</domain>
+            <domain idc="4">caextshort.weixin.qq.com</domain>
+            <domain idc="3">szextshort.weixin.qq.com</domain>
+            <domain idc="5">sh2tjextshort.weixin.qq.com</domain>
+            <domain idc="5">sz2tjextshort.weixin.qq.com</domain>
+            <domain idc="5">tjextshort.weixin.qq.com</domain>
+            <domain idc="8">mlshort.weixin.qq.com</domain>
+        </domainlist>
+        <cgilist/>
+    </function>
+    <function name="stat">
+        <domainlist connecttype="short">
+            <domain idc="1">minorshort.weixin.qq.com</domain>
+            <domain idc="3">szminorshort.weixin.qq.com</domain>
+            <domain idc="5">sh2tjminorshort.weixin.qq.com</domain>
+            <domain idc="5">sz2tjminorshort.weixin.qq.com</domain>
+            <domain idc="4">caminorshort.weixin.qq.com</domain>
+            <domain idc="2">hkminorshort.weixin.qq.com</domain>
+            <domain idc="8">mlminorshort.weixin.qq.com</domain>
+        </domainlist>
+        <cgilist prefix="/cgi-bin/micromsg-bin/">
+            <cgi nettype="1">statreport</cgi>
+            <cgi nettype="1">clientperfreport</cgi>
+            <cgi nettype="1">useractionreport</cgi>
+            <cgi nettype="1">reportstrategy</cgi>
+            <cgi nettype="1">kvreport</cgi>
+            <cgi nettype="1">gamereportkv</cgi>
+            <cgi nettype="1">reportkvcomm</cgi>
+            <cgi reqid="218" respid="1000000218" nettype="1" netstrategy="0">kvreportrsa</cgi>
+            <cgi nettype="1">reportkvcommrsa</cgi>
+            <cgi nettype="1">rtkvreport</cgi>
+            <cgi nettype="1">newreportkvcommrsa</cgi>
+            <cgi nettype="1">newreportkvcomm</cgi>
+            <cgi nettype="1">reportidkey</cgi>
+            <cgi nettype="1">reportidkeyrsa</cgi>
+            <cgi nettype="1">newreportidkey</cgi>
+            <cgi nettype="1">newreportidkeyrsa</cgi>
+            <cgi nettype="1">getkvidkeystrategy</cgi>
+            <cgi nettype="1">getkvidkeystrategyrsa</cgi>
+            <cgi reqid="111" respid="1000000111" nettype="1" netstrategy="0">mmuploadmedia</cgi>
+            <cgi nettype="1">getdisasterinfo</cgi>
+            <cgi nettype="1">getapmstrategy</cgi>
+            <cgi reqid="57" respid="1000000057" nettype="1" netstrategy="0">shakeget</cgi>
+            <cgi reqid="56" respid="1000000056" nettype="1" netstrategy="0">shakereport</cgi>
+            <cgi reqid="177" respid="1000000177" nettype="1" netstrategy="0">shakemusic</cgi>
+            <cgi nettype="1">shaketv</cgi>
+            <cgi nettype="1">reportproject8voiceinfo</cgi>
+        </cgilist>
+    </function>
+    <function name="pay">
+        <domainlist connecttype="short">
+            <domain idc="1">short.pay.weixin.qq.com</domain>
+            <domain idc="1">shshort.pay.weixin.qq.com</domain>
+            <domain idc="2">hkshort.pay.weixin.qq.com</domain>
+            <domain idc="4">cashort.pay.weixin.qq.com</domain>
+            <domain idc="3">szshort.pay.weixin.qq.com</domain>
+            <domain idc="8">mlshort.pay.weixin.qq.com</domain>
+        </domainlist>
+        <cgilist prefix="/cgi-bin/micromsg-bin/">
+            <cgi reqid="370" respid="1000000370" nettype="1" netstrategy="0">paysubscribe</cgi>
+            <cgi reqid="380" respid="1000000380" nettype="1" netstrategy="0">offlinepayconfirm</cgi>
+            <cgi reqid="367" respid="1000000367" nettype="1" netstrategy="0">checkpayjsapi</cgi>
+            <cgi reqid="368" respid="1000000368" nettype="1" netstrategy="0">genprepay</cgi>
+            <cgi reqid="369" respid="1000000369" nettype="1" netstrategy="0">payauthapp</cgi>
+        </cgilist>
+        <cgilist prefix="/cgi-bin/mmpay-bin/">
+            <cgi reqid="374" respid="1000000374" nettype="1" netstrategy="0">paysubscribe</cgi>
+            <cgi reqid="371" respid="1000000371" nettype="1" netstrategy="0">checkpayjsapi</cgi>
+            <cgi reqid="376" respid="1000000376" nettype="1" netstrategy="0">offlinepayconfirm</cgi>
+            <cgi reqid="372" respid="1000000372" nettype="1" netstrategy="0">genprepay</cgi>
+            <cgi reqid="373" respid="1000000373" nettype="1" netstrategy="0">payauthapp</cgi>
+            <cgi nettype="1">checkuserauthjsapi</cgi>
+        </cgilist>
+        <cgilist prefix="/cgi-bin/mmpay-bin/tenpay/">
+            <cgi reqid="363" respid="1000000363" nettype="1" netstrategy="0">getbanpaymobileinfo</cgi>
+            <cgi reqid="364" respid="1000000364" nettype="1" netstrategy="0">banpaybindauthen</cgi>
+            <cgi reqid="365" respid="1000000365" nettype="1" netstrategy="0">banpaybindverify</cgi>
+            <cgi reqid="378" respid="1000000378" nettype="1" netstrategy="0">gendigitalcert</cgi>
+            <cgi reqid="379" respid="1000000379" nettype="1" netstrategy="0">deletedigitalcert</cgi>
+            <cgi reqid="361" respid="1000000361" nettype="1" netstrategy="0">verifybind</cgi>
+            <cgi reqid="362" respid="1000000362" nettype="1" netstrategy="0">sendpayaward</cgi>
+            <cgi reqid="360" respid="1000000360" nettype="1" netstrategy="0">checkpwd</cgi>
+            <cgi reqid="375" respid="1000000375" nettype="1" netstrategy="0">offlinecreate</cgi>
+            <cgi reqid="377" respid="1000000377" nettype="1" netstrategy="0">offlinequeryuser</cgi>
+            <cgi reqid="359" respid="1000000359" nettype="1" netstrategy="0">elementquerynew</cgi>
+            <cgi nettype="1">ts_verifyreg</cgi>
+            <cgi reqid="383" respid="1000000383" nettype="1" netstrategy="0">ts_authen</cgi>
+            <cgi reqid="384" respid="1000000384" nettype="1" netstrategy="0">ts_verify</cgi>
+            <cgi reqid="385" respid="1000000385" nettype="1" netstrategy="0">ts_qrcodeusebindquery</cgi>
+            <cgi reqid="386" respid="1000000386" nettype="1" netstrategy="0">ts_payorderquery</cgi>
+            <cgi nettype="1">payauthnative</cgi>
+        </cgilist>
+    </function>
+    <function name="newyear">
+        <domainlist connecttype="short">
+            <domain idc="3">newyear.weixin.qq.com</domain>
+        </domainlist>
+        <cgilist prefix="/cgi-bin/micromsg-bin/">
+            <cgi nettype="1">newyearscanreport2017</cgi>
+        </cgilist>
+    </function>
+    <md5>ba5716c86b3e945a837b5d03d1c4fe77</md5>
+    <timestamp>1521388800</timestamp>
+    <signature>MDwCHCsBsDCzdVVzjD7BzFErTsyLf132jPZXxZbk8ysCHD6Dh+et2iL7/mc5wKMzxpzGs0Ami3bhmiFDsxE=</signature>
+    <signature2>MEQCIGmXgTMiDtcWW/N1coMyJNCPfoyySdB0AKQWvhh7+qNbAiAlDxJKVA9zCl0rM0DFvjx2YMX1c3FArs0A51Pua8T6pQ==</signature2>
+</functionlist>

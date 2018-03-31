@@ -1,0 +1,23 @@
+[Desktop Entry]
+Comment[zh_CN]=示例
+Comment=Wine-QQ 8.9.3
+Encoding=UTF-8
+Exec=/opt/demo/demo.sh
+#..path为文件夹所在路径
+GenericName[zh_CN]=
+GenericName=
+Icon=/opt/demo/demo.png
+#指定QQ图标文件
+MimeType=
+Name[zh_CN]=demo.desktop
+Name=QQ
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+Categories=Network;

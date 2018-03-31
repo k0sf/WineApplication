@@ -1,0 +1,11 @@
+<hosts>
+    <mapping src="long.weixin.qq.com" redirect="szlong.weixin.qq.com"/>
+    <mapping src="short.weixin.qq.com" redirect="szshort.weixin.qq.com"/>
+    <mapping src="wx.qq.com" redirect="wx.qq.com"/>
+    <mapping src="support.weixin.qq.com" redirect="szsupport.weixin.qq.com"/>
+    <mapping src="extshort.weixin.qq.com" redirect="szextshort.weixin.qq.com"/>
+    <mapping src="minorshort.weixin.qq.com" redirect="szminorshort.weixin.qq.com"/>
+    <mapping src="short.pay.weixin.qq.com" redirect="szshort.pay.weixin.qq.com"/>
+    <mapping src="newyear.weixin.qq.com" redirect="newyear.weixin.qq.com"/>
+    <mapping src="localhost" redirect="localhost"/>
+</hosts>

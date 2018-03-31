@@ -1,0 +1,23 @@
+[Desktop Entry]
+Comment[zh_CN]=Wine-demo管理器
+Comment=winetricks
+Encoding=UTF-8
+Exec=/opt/demo/Wine-demo-Tool.sh
+#指定可执行文件路径
+GenericName[zh_CN]=
+GenericName=
+Icon=/opt/demo/Wine-demo-Tool.png
+#指定图标文件
+MimeType=
+Name[zh_CN]=Wine-demo-Tool.desktop
+Name=Wine-demo-Tool
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+Categories=Network;
