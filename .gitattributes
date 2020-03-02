@@ -1,1 +1,1 @@
-*.sh linguist-detectable=true
+*.sh linguist-language=shell
